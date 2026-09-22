@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA - Pelletteria Smart di Lusso</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Draft Banner -->
+  <div class="draft-banner">Bozza di lavoro - Concept e Prototipo Non In Commercio</div>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">AURA<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+<li><a href="tecnologia.html">Tecnologia</a></li>
+<li><a href="collezione.html">Collezione</a></li>
+<li><a href="chi-siamo.html">Chi Siamo</a></li>
+<li><a href="contatti.html" class="active">Contatti</a></li>
+
+      </ul>
+      <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="container">
+    <h1 class="section-title">Contatti &amp; Prenotazioni Demo</h1>
+    <p class="section-subtitle">Siamo a disposizione per investitori, partner commerciali e clienti privati.</p>
+
+    <div class="tech-flex">
+      <div class="tech-text" style="background-color: var(--bg-card); padding: 2.5rem; border-radius: 8px;">
+        <h2 style="font-family: var(--font-serif); color: var(--accent-gold); margin-bottom: 1.5rem;">Richiedi una Dimostrazione</h2>
+        <form id="demo-contact-form">
+          <div class="form-group">
+            <label for="nome">Nome e Cognome *</label>
+            <input type="text" id="nome" required placeholder="Es. Marco Rossi">
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" required placeholder="Es. marco.rossi@example.com">
+          </div>
+          <div class="form-group">
+            <label for="interessi">Interessato a:</label>
+            <select id="interessi">
+              <option>Acquisto Borsa della Collezione</option>
+              <option>Partnership / Retail</option>
+              <option>Investimenti / Stampa</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="messaggio">Messaggio *</label>
+            <textarea id="messaggio" rows="4" required placeholder="Scrivi qui il tuo messaggio..."></textarea>
+          </div>
+          <button type="submit" class="btn" style="width: 100%;">Invia Richiesta</button>
+          <div id="form-status" style="margin-top: 1rem; font-weight: 600;"></div>
+        </form>
+      </div>
+
+      <div class="tech-media">
+        <div style="background-color: var(--bg-card); padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+          <h3 style="font-family: var(--font-serif); color: var(--accent-gold); margin-bottom: 1rem;">Showroom &amp; Sede (Pleseholder)</h3>
+          <p style="color: var(--text-muted); margin-bottom: 0.5rem;">📍 Via Monte Napoleone 12, 20121 Milano (MI)</p>
+          <p style="color: var(--text-muted); margin-bottom: 0.5rem;">✉️ info@aura-leathertech.it</p>
+          <p style="color: var(--text-muted);">📞 +39 02 1234567</p>
+        </div>
+
+        <div style="background-color: var(--primary-emerald); padding: 2rem; border-radius: 8px; border: 1px solid var(--accent-gold);">
+          <h3 style="font-family: var(--font-serif); color: var(--text-light); margin-bottom: 0.5rem;">Assistenza Rapida WhatsApp</h3>
+          <p style="color: var(--text-muted); margin-bottom: 1rem;">Chatta direttamente con un nostro concierge dedicato.</p>
+          <a href="https://wa.me/390000000000" target="_blank" class="btn" style="background-color: #25D366; border: none; color: white;">Apri Chat WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp CTA -->
+  <a href="https://wa.me/390000000000" class="whatsapp-btn" target="_blank" title="Contattaci su WhatsApp" aria-label="WhatsApp">
+    💬
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container" style="padding: 1rem 0;">
+      <p>&copy; 2026 AURA Leathertech S.r.l. - Tutti i diritti riservati. (Bozza di lavoro)</p>
+      <p style="margin-top: 0.5rem; font-size: 0.8rem;">Design luxury alternativo: Smeraldo Profondo, Terracotta e Oro Muto.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
