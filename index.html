@@ -12,7 +12,20 @@
 <body>
 
   <!-- Draft Banner -->
-  <div class="draft-banner">Bozza di lavoro - Concept e Prototipo Non In Commercio</div>
+  <div class="draft-banner">🔒 Bozza di lavoro — struttura e design indicativi, in attesa di materiali reali (foto, loghi, testi definitivi).</div>
+
+  <!-- Top contact bar -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-contacts">
+        <a href="tel:+390000000000">📞 +39 000 000 0000</a>
+        <a href="mailto:info@aura.it">✉️ info@aura.it</a>
+      </div>
+      <div class="topbar-contacts">
+        <span>Spedizione assicurata in tutta Italia</span>
+      </div>
+    </div>
+  </div>
 
   <!-- Header / Navigation -->
   <header>
@@ -35,13 +48,56 @@
   </header>
 
   <section class="hero">
-    <div class="container" style="padding-top: 2rem; padding-bottom: 2rem;">
-      <h1>L'Eccellenza dell'Artigianato.<br>La Protezione della Tecnologia.</h1>
-      <p>AURA fonde la più pregiata pelletteria italiana con un avanzato sistema anti-furto discreto ed invisibile, sincronizzato con i tuoi dispositivi personali.</p>
+    <div class="container hero-grid" style="padding-top: 2rem; padding-bottom: 2rem;">
       <div>
-        <a href="collezione.html" class="btn">Scopri la Collezione</a>
-        <a href="tecnologia.html" class="btn btn-secondary">Esplora la Tecnologia</a>
+        <div class="eyebrow">Eleganza italiana · Protezione intelligente</div>
+        <h1>La borsa che veglia su ciò che conta</h1>
+        <p>Pelletteria di lusso realizzata a mano, con un sistema antifurto discreto integrato: sincronizzato con smartphone e smartwatch, ti avvisa in tempo reale se la tua borsa si allontana da te.</p>
+        <div>
+          <a href="collezione.html" class="btn">Scopri la Collezione</a>
+          <a href="tecnologia.html" class="btn btn-secondary">Esplora la Tecnologia</a>
+        </div>
       </div>
+      <div class="hero-media">
+        <svg viewBox="0 0 320 380" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+          <!-- Bag body -->
+          <path d="M 70 150 C 70 125, 250 125, 250 150 L 270 320 C 270 338, 252 350, 232 350 L 88 350 C 68 350, 50 338, 50 320 Z" fill="#8C2D19" stroke="#E5A93C" stroke-width="2"/>
+          <!-- Flap -->
+          <path d="M 70 150 L 250 150 L 238 220 C 160 245, 160 245, 82 220 Z" fill="#6A2213" stroke="#E5A93C" stroke-width="1.5"/>
+          <!-- Handles -->
+          <path d="M 110 150 C 110 75, 210 75, 210 150" fill="none" stroke="#6A2213" stroke-width="12" stroke-linecap="round"/>
+          <path d="M 110 150 C 110 75, 210 75, 210 150" fill="none" stroke="#E5A93C" stroke-width="2" stroke-linecap="round"/>
+          <!-- Smart module light -->
+          <circle cx="160" cy="220" r="14" fill="#E5A93C"/>
+          <circle cx="160" cy="220" r="7" fill="#1A4D46">
+            <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <!-- Bluetooth waves -->
+          <path d="M 130 185 A 32 32 0 0 1 190 185" fill="none" stroke="#52A597" stroke-width="2.5" opacity="0.85"/>
+          <path d="M 115 172 A 50 50 0 0 1 205 172" fill="none" stroke="#52A597" stroke-width="2" opacity="0.5"/>
+          <!-- Smartphone sync -->
+          <g transform="translate(230, 26)">
+            <rect x="0" y="0" width="46" height="82" rx="8" fill="#1A4D46" stroke="#E5A93C" stroke-width="1.5"/>
+            <rect x="4" y="7" width="38" height="60" rx="3" fill="#2D2424"/>
+            <circle cx="23" cy="74" r="2.5" fill="#E5A93C"/>
+          </g>
+          <!-- Smartwatch sync -->
+          <g transform="translate(18, 40)">
+            <rect x="10" y="0" width="12" height="55" fill="#333"/>
+            <rect x="2" y="14" width="28" height="30" rx="6" fill="#1A4D46" stroke="#E5A93C" stroke-width="1.5"/>
+            <circle cx="16" cy="29" r="6" fill="#8C2D19"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="container stats-strip">
+    <div class="stats-grid">
+      <div><b>100%</b><span>Pelle italiana selezionata</span></div>
+      <div><b>&lt;5s</b><span>Tempo di allerta allontanamento</span></div>
+      <div><b>iOS / Android</b><span>App di sincronizzazione</span></div>
+      <div><b>2 anni</b><span>Garanzia su meccanismo e modulo smart</span></div>
     </div>
   </section>
 
@@ -116,6 +172,99 @@
     </div>
   </section>
 
+  <section class="container">
+    <h2 class="section-title">Le Nostre Creazioni</h2>
+    <p class="section-subtitle">Un'anteprima della collezione — protezione intelligente in ogni modello.</p>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <svg viewBox="0 0 400 300" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+          <rect width="400" height="300" fill="#2D2424" rx="12"/>
+          <path d="M 100 120 C 100 100, 300 100, 300 120 L 320 250 C 320 265, 305 275, 290 275 L 110 275 C 95 275, 80 265, 80 250 Z" fill="#8C2D19" stroke="#E5A93C" stroke-width="2"/>
+          <path d="M 100 120 L 300 120 L 290 180 C 200 200, 200 200, 110 180 Z" fill="#6A2213" stroke="#E5A93C" stroke-width="1.5"/>
+          <circle cx="200" cy="180" r="12" fill="#E5A93C"/>
+          <circle cx="200" cy="180" r="6" fill="#1A4D46">
+            <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <path d="M 150 120 C 150 60, 250 60, 250 120" fill="none" stroke="#6A2213" stroke-width="10" stroke-linecap="round"/>
+          <path d="M 150 120 C 150 60, 250 60, 250 120" fill="none" stroke="#E5A93C" stroke-width="2" stroke-linecap="round"/>
+          <path d="M 180 150 A 25 25 0 0 1 220 150" fill="none" stroke="#52A597" stroke-width="2" opacity="0.8"/>
+          <path d="M 170 140 A 40 40 0 0 1 230 140" fill="none" stroke="#52A597" stroke-width="1.5" opacity="0.5"/>
+        </svg>
+        <div class="product-info">
+          <h3 class="product-title">AURA Aurelia Satchel</h3>
+          <p class="product-material">Pelle Pieno Fiore Terracotta &amp; Hardware Dorato</p>
+          <div class="product-price">
+            <span>€ 1.250</span>
+            <a href="contatti.html" class="btn" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Richiedi</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <svg viewBox="0 0 400 300" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+          <rect width="400" height="300" fill="#2D2424" rx="12"/>
+          <path d="M 110 90 L 290 90 L 310 260 C 310 270, 300 275, 290 275 L 110 275 C 100 275, 90 270, 90 260 Z" fill="#1A4D46" stroke="#E5A93C" stroke-width="2"/>
+          <path d="M 110 90 L 290 90 L 285 150 L 115 150 Z" fill="#133A35"/>
+          <path d="M 150 100 L 150 40 C 150 35, 170 30, 200 30 C 230 30, 250 35, 250 40 L 250 100" fill="none" stroke="#8C2D19" stroke-width="8"/>
+          <rect x="185" y="135" width="30" height="30" rx="6" fill="#2D2424" stroke="#E5A93C" stroke-width="1.5"/>
+          <circle cx="200" cy="150" r="4" fill="#52A597">
+            <animate attributeName="r" values="3;6;3" dur="1.5s" repeatCount="indefinite"/>
+          </circle>
+        </svg>
+        <div class="product-info">
+          <h3 class="product-title">AURA Smeralda Tote</h3>
+          <p class="product-material">Pelle Nuvolata Verde Smeraldo</p>
+          <div class="product-price">
+            <span>€ 1.450</span>
+            <a href="contatti.html" class="btn" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Richiedi</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <svg viewBox="0 0 400 300" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+          <rect width="400" height="300" fill="#2D2424" rx="12"/>
+          <path d="M 130 80 C 130 50, 270 50, 270 80 L 290 260 C 290 270, 280 275, 270 275 L 130 275 C 120 275, 110 270, 110 260 Z" fill="#2C3E35" stroke="#E5A93C" stroke-width="2"/>
+          <rect x="140" y="170" width="120" height="80" rx="8" fill="#8C2D19" stroke="#E5A93C" stroke-width="1"/>
+          <line x1="140" y1="170" x2="260" y2="170" stroke="#E5A93C" stroke-width="3"/>
+          <circle cx="200" cy="210" r="8" fill="#1A4D46" stroke="#E5A93C" stroke-width="1.5"/>
+          <circle cx="200" cy="210" r="3" fill="#52A597"/>
+        </svg>
+        <div class="product-info">
+          <h3 class="product-title">AURA Urban Backpack</h3>
+          <p class="product-material">Pelle Calfskin Opaca Verde Bosco</p>
+          <div class="product-price">
+            <span>€ 1.100</span>
+            <a href="contatti.html" class="btn" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Richiedi</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top: 2.5rem;">
+      <a href="collezione.html" class="btn btn-secondary">Vedi Tutta la Collezione</a>
+    </div>
+  </section>
+
+  <section class="container">
+    <blockquote class="quote-block">
+      "Il vero lusso non è solo indossare qualcosa di bello — è non doversene mai preoccupare."
+      <cite>— Filosofia AURA</cite>
+    </blockquote>
+  </section>
+
+  <section class="container">
+    <div class="cta-banner">
+      <h2 class="section-title" style="margin-bottom: .5rem;">Prenota un'Anteprima della Collezione</h2>
+      <p>Lasciaci i tuoi contatti: ti aggiorneremo sul lancio e sulle disponibilità in edizione limitata.</p>
+      <div class="cta-actions">
+        <a href="contatti.html" class="btn">Contattaci</a>
+        <a href="https://wa.me/390000000000" class="btn btn-secondary" target="_blank" rel="noopener">WhatsApp &rarr;</a>
+      </div>
+    </div>
+  </section>
+
   <!-- Floating WhatsApp CTA -->
   <a href="https://wa.me/390000000000" class="whatsapp-btn" target="_blank" title="Contattaci su WhatsApp" aria-label="WhatsApp">
     💬
@@ -123,9 +272,47 @@
 
   <!-- Footer -->
   <footer>
-    <div class="container" style="padding: 1rem 0;">
-      <p>&copy; 2026 AURA Leathertech S.r.l. - Tutti i diritti riservati. (Bozza di lavoro)</p>
-      <p style="margin-top: 0.5rem; font-size: 0.8rem;">Design luxury alternativo: Smeraldo Profondo, Terracotta e Oro Muto.</p>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">AURA<span>.</span></div>
+          <p style="max-width:280px;">Pelletteria di lusso italiana con sistema antifurto intelligente integrato.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="TikTok">tt</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Il Sito</h4>
+          <ul>
+            <li><a href="collezione.html">Collezione</a></li>
+            <li><a href="tecnologia.html">Tecnologia</a></li>
+            <li><a href="chi-siamo.html">Chi Siamo</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Assistenza</h4>
+          <ul>
+            <li><a href="contatti.html">Domande frequenti</a></li>
+            <li><a href="contatti.html">Spedizioni e resi</a></li>
+            <li><a href="contatti.html">Garanzia</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contatti</h4>
+          <ul>
+            <li><a href="tel:+390000000000">+39 000 000 0000</a></li>
+            <li><a href="mailto:info@aura.it">info@aura.it</a></li>
+            <li><a href="https://wa.me/390000000000">WhatsApp &rarr;</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 AURA Leathertech S.r.l. — Bozza di lavoro, non sito ufficiale</span>
+        <span><a href="#">Privacy</a> · <a href="#">Cookie</a></span>
+      </div>
     </div>
   </footer>
 
