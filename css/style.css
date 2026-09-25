@@ -114,6 +114,33 @@ header {
 .logo span { color: var(--accent-gold); }
 .logo:hover { color: var(--text-light); }
 
+/* ---------- brand (logo con badge, stile MARCHIO) ---------- */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: .14em;
+  color: var(--text-light);
+}
+.brand:hover { color: var(--text-light); }
+.brand-mark {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid var(--accent-gold);
+  color: var(--accent-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
 .nav-links {
   display: flex;
   gap: 2.2rem;
@@ -423,9 +450,12 @@ textarea { resize: vertical; min-height: 110px; }
 /* ---------- stats strip ---------- */
 .stats-strip {
   background: var(--bg-card);
-  border-radius: 12px;
-  padding: 2.5rem 2rem;
+  border-top: 1px solid rgba(229,169,60,.12);
+  border-bottom: 1px solid rgba(229,169,60,.12);
+  padding: 2.5rem 0;
+  margin-bottom: 4rem;
 }
+.stats-strip .container { margin-bottom: 0; }
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -455,8 +485,7 @@ textarea { resize: vertical; min-height: 110px; }
   font-size: 1.35rem;
   font-style: italic;
   color: var(--text-light);
-  margin: 0 auto;
-  max-width: 760px;
+  margin: 0;
 }
 .quote-block cite {
   display: block;
